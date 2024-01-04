@@ -6,6 +6,7 @@ import java.util.List;
 public class PlusMinus {
     public static void plusMinus(List<Integer> arr) {
         int positive=0, negative=0, zero =0;
+
         for (int number: arr){
             if (number <0) negative++;
             else if (number>0) positive++;
@@ -15,6 +16,7 @@ public class PlusMinus {
         double positiveRatio = (double) positive/arr.size();
         double negativeRatio = (double) negative/arr.size();
         double zeroRatio = (double) zero/arr.size();
+
         System.out.printf("%.6f%n", positiveRatio);
         System.out.printf("%.6f%n", negativeRatio);
         System.out.printf("%.6f%n", zeroRatio);
@@ -23,6 +25,5 @@ public class PlusMinus {
 
     public static void main(String[] args) {
         plusMinus(Arrays.asList(-4,3,-9,0,4,1));
-
     }
 }
