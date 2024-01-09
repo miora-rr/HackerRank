@@ -9,7 +9,7 @@ Lily decides to share a contiguous segment of the ber selected such that:
 Determine how many ways she can divide the chocolate.
 
 * Example
-s = (2.2, 1.3, 2)
+s = (2,2,1,3,2)
 d = 4
 m = 2
 Lily wants to find segments swimming to Ron's birthday i = 4 with a length equalling his birth month m = 2.
