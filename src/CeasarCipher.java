@@ -6,12 +6,12 @@ public class CeasarCipher {
         for (char c : str) {
             if (Character.isAlphabetic(c)) {
                 if (c >= 'a') {
-                    int aplahabetPos = c - 'a';
-                    int newAlphaPos = (aplahabetPos + k) % 26;
+                    int alphaPos = c - 'a';
+                    int newAlphaPos = (alphaPos + k) % 26;
                     cipher.append((char) ('a' + newAlphaPos));
                 } else {
-                    int aplahabetPos = c - 'A';
-                    int newAlphaPos = (aplahabetPos + k) % 26;
+                    int alphaPos = c - 'A';
+                    int newAlphaPos = (alphaPos + k) % 26;
                     cipher.append((char) ('A' + newAlphaPos));
                 }
             } else {
