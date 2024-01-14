@@ -8,4 +8,8 @@ public class Util {
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
     }
+
+    public static List<Integer> formatString (String numbersArray){
+        return formatString(numbersArray, ' ');
+    }
 }
